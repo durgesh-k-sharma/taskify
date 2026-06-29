@@ -1,0 +1,19 @@
+{
+  "name": "taskify",
+  "version": "1.0.0",
+  "description": "A simple terminal-based task/notes CLI with JSON persistence.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "taskify": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": ["taskify", "notes", "cli", "tui", "json"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
